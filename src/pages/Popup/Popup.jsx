@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../../assets/img/logo.svg';
-import Greetings from '../../containers/Greetings/Greetings';
 import './Popup.css';
 
 const Popup = () => {
@@ -12,7 +11,7 @@ const Popup = () => {
           Edit <code>src/pages/Popup/Popup.jsx</code> and save to reload.
         </p>
         <a
-          className="App-link"
+          className="App-link font-bold"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
