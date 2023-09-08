@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import './Popup.css';
 
+/**
+ * Popup
+ * @returns
+ */
 const Popup: React.FC = () => {
   const [luckyDigits, setLuckyDigits] = useState<number[]>([]);
 
